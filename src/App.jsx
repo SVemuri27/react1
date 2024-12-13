@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './pages/HomePage';
 import About from './pages/AboutPage';
 
-import Navbar from './components/NavbarElements';
+// import Navbar from './components/NavbarElements';
 
 
 
