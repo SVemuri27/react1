@@ -1,5 +1,5 @@
 import React from "react";
-const NavbarElements = () => {
+const Navbarcomponents = () => {
     return (
         <>
             <Nav>
@@ -21,4 +21,4 @@ const NavbarElements = () => {
         </>
     );
 };
-export default navbar;
+export default Navbarcomponents;
