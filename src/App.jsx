@@ -13,15 +13,21 @@ import HomePage from './pages/HomePage';
 import About from './pages/AboutPage';
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Navbar />
+const [count, setCount] = useState(0)
+
+return (
+  <>
+    <div>
+      <ul>
       <Routes>
         <Route path="/Home" element={<HomePage />} />
         <Route path="/About" element={<About />} />
       </Routes>
-    </BrowserRouter>
-  );
+        
+      </ul>
+    </div>
+  </>
+)
 }
 
 export default App;
