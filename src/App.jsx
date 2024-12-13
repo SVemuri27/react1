@@ -3,23 +3,22 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import navbar from "./components/navbar";
-import home from './pages';
-import about from './pages/about';
- 
+// import Navbar from "./components/Navbar";
+import HomePage from './pages/HomePage';
+import About from './pages/Aboutpage';
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-  <BrowserRouter>
-  <navbar />
-  <Routes>
-    <Route path="/" element={<home />} /> 
-           <Route path="/about" element={<About />} />
-          </Routes>
-          </BrowserRouter>
-          );
-          }
-          
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/Home" element={<HomePage />} />
+        <Route path="/About" element={<About />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 export default App;
