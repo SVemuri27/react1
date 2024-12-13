@@ -3,11 +3,7 @@ const Navbar = () => {
     return (
         <>
             <Nav>
-                <NavLogo to="/">
-                    Logo
-                </NavLogo>
-                <Bars />
-
+              
                 <NavMenu>
                     <NavLink
                         to="/"
