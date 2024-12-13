@@ -9,7 +9,7 @@ import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import Navbar from './components/NavbarElements';
 import HomePage from './pages/HomePage';
-import About from './pages/About';
+import About from './pages/AboutPage';
 
 function App() {
   return (
