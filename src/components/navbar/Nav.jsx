@@ -1,6 +1,3 @@
-// import { FaBars } from "react-icons/fa";
-// import { NavLink as Link } from "react-router-dom";
-
 // Nav.jsx
 import React from 'react';
 
