@@ -1,33 +1,21 @@
-
 import React from 'react';
-// import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-// import './App.css';
-
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import './index.css';
+import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Navbar from './components/NavbarComponents';
+import Navbar from './components/navbar';
 import HomePage from './pages/HomePage';
-import About from './pages/AboutPage';
+import About from './pages/About';
+import './App.css';
 
 function App() {
-// const [count, setCount] = useState(0)
-
-return (
-  <>
-    <div>
-      <ul>
+  return (
+    <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path="/Home" element={<HomePage />} />
         <Route path="/About" element={<About />} />
       </Routes>
-        
-      </ul>
-    </div>
-  </>
-)
+    </BrowserRouter>
+  );
 }
 
 export default App;
