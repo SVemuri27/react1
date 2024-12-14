@@ -1,19 +1,17 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Nav from './components/Nav'; 
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-// import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Homepage';
+import About from './pages/AboutPage';
+// import Topic from './pages/Topic';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Nav />
+    <Router>
       <Routes>
-        <Route path="/HomePage" element={<HomePage />} />
-        <Route path="/AboutPage" element={<AboutPage />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/* <Route path="/topics/:topicId" element={<Topic />} /> */}
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
