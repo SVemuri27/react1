@@ -1,11 +1,17 @@
 // Nav.jsx
 import React from 'react';
-
-const Nav = () => {
+import {Link} form "react-router-dom"
+export const Nav = () => {
   return (
-    <nav>
-      <h1>Navigation Bar</h1>
-    </nav>
+  <nav>
+  <ul>
+  <li>
+  <Link to="/about">About</Link>
+  </li>
+  <li><Link to="/contact">services</Link>
+  </li>
+  </ul>
+  </nav>
   );
 };
 
