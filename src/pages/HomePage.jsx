@@ -5,4 +5,4 @@ function Home() {
   return <div>Welcome to the Home Page</div>;
 }
 
-export default HomePage;
+export default Home;
