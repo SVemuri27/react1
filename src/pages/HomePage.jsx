@@ -1,13 +1,8 @@
-// HomePage.jsx
+// ./pages/HomePage.jsx
 import React from 'react';
 
-const HomePage = () => {
-  return (
-    <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home Page!</p>
-    </div>
-  );
-};
+function Home() {
+  return <div>Welcome to the Home Page</div>;
+}
 
 export default HomePage;
