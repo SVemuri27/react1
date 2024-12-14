@@ -1,8 +1,8 @@
 // ./pages/HomePage.jsx
 import React from 'react';
 
-function Home() {
+function HomePage() {
   return <div>Welcome to the Home Page</div>;
 }
 
-export default Home;
+export default HomePage;
