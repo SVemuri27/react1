@@ -1,6 +1,6 @@
 // Nav.jsx
 import React from 'react';
-import {Link} form "react-router-dom"
+// import {Link} form "react-router-dom"
 export const Nav = () => {
   return (
   <nav>
