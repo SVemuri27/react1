@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 //import Home from './Home'; 
-import User from './User '; // Ensure there are no extra spaces
+import User from './User';
 
 const App = () => {
   return (
