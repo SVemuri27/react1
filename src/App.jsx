@@ -8,12 +8,12 @@ const App = () => {
   return (
     <Router>
       <nav>
-        <Link to="/">Home</Link> {/* Change to point to root */}
+        <Link to="/Home">Home</Link> {/* Change to point to root */}
         <Link to="/user/1">User  1</Link>
         <Link to="/user/2">User  2</Link>
       </nav>
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Use Home here */}
+        <Route path="/Home" element={<Home />} /> {/* Use Home here */}
         <Route path="/user/:id" element={<User  />} />
       </Routes>
     </Router>
