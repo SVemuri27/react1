@@ -1,8 +1,8 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import User from './components/navbar/user';
 //import Home from './Home'; 
-import User from './User';
 
 const App = () => {
   return (
