@@ -1,13 +1,8 @@
+// ./pages/HomePage.jsx
 import React from 'react';
-// import DataFetchingComponent from '../components/DataFetchingComponent';
 
-const HomePage = () => {
-  return (
-    <div>
-      <h1>Home Page</h1>
-      <DataFetchingComponent />
-    </div>
-  );
-};
+function HomePage() {
+  return <div>Welcome to the Home Page</div>;
+}
 
 export default HomePage;
