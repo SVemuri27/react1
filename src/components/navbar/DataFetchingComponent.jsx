@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import React from 'react';
+
 const DataFetchingComponent = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
