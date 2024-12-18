@@ -1,7 +1,8 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Homepage from './Home'; // Ensure this matches the exported nameimport User from './User '; // Ensure there are no extra spaces
+import Homepage from './Home'; // Ensure this matches the exported name
+import User from './User '; // Ensure there are no extra spaces
 
 const App = () => {
   return (
