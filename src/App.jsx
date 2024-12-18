@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/Home';
 import About from './pages/About';
-import DataFetchingComponent from './components/DataFetchingComponent'; // Import the component
 import { Link } from 'react-router-dom';
+import DataFetchingComponent from './components/DataFetchingComponent'; // Ensure this path is correct
 
 function App() {
   return (
