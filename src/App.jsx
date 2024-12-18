@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/Home';
 import About from './pages/About';
 import { Link } from 'react-router-dom';
-import DataFetchingComponent from './components/DataFetchingComponent'; // Ensure this path is correct
+import DataFetchingComponent from './components/DataFetchingComponent.jsx';
 
 function App() {
   return (
