@@ -1,5 +1,5 @@
 import React from 'react';
-import DataFetchingComponent from '../components/DataFetchingComponent';
+// import DataFetchingComponent from '../components/DataFetchingComponent';
 
 const HomePage = () => {
   return (
