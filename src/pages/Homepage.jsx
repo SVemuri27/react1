@@ -1,8 +1,8 @@
 // src/Home.jsx
 import React from 'react';
 
-const Home = () => {
+const Homepage = () => {
   return <h1>Welcome to the Home Page</h1>;
 };
 
-export default Home;
+export default Homepage;
