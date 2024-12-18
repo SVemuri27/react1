@@ -1,7 +1,7 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './Home'; // Ensure this import is correct
+import Home from './Home';
 import User from './User '; // Ensure this import is correct
 
 const App = () => {
