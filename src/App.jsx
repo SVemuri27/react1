@@ -1,25 +1,23 @@
+// src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/Home';
-import About from './pages/About';
-import { Link } from 'react-router-dom';
-import DataFetchingComponent from './components/DataFetchingComponent.jsx';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './Home';
+import User from './User ';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <nav>
-        <Link to="/home">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/data-fetching">Data Fetching</Link> {/* Add a link to the new route */}
+        <Link to="/">Home</Link>
+        <Link to="/user/1">User  1</Link>
+        <Link to="/user/2">User  2</Link>
       </nav>
       <Routes>
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/data-fetching" element={<DataFetchingComponent />} /> {/* Add the new route */}
+        <Route path="/" element={<Home />} />
+        <Route path="/user/:id" element={<User  />} />
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
