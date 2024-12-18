@@ -7,12 +7,12 @@ const App = () => {
   return (
     <Router>
       <nav>
-        <Link to="/Homepage">Home</Link>
+        <Link to="/Home">Home</Link>
         <Link to="/user/1">User  1</Link>
         <Link to="/user/2">User  2</Link>
       </nav>
       <Routes>
-        <Route path="/Homwepage/:id" element={<Homepage />} /> {/* Use Homepage here */}
+        <Route path="/Home/:id" element={<Homepage />} /> {/* Use Homepage here */}
         <Route path="/user/:id" element={<User  />} />
       </Routes>
     </Router>
