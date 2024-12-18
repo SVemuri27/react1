@@ -6,7 +6,7 @@ const DataFetchingComponent = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('https://api.example.com/data') // Replace with your actual API URL
+    fetch('https://jsonplaceholder.typicode.com/posts') // Dummy API URL
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
