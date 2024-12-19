@@ -7,6 +7,8 @@
   color:black;
   background-color: #f5efef;
 text-align: center;
+padding-left: 45%;
+gap: 10px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
