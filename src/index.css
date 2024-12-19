@@ -23,6 +23,6 @@ body {
 }
 nav {
   display: flex;
-  gap: 5;
+  gap: 15;
 }
 
