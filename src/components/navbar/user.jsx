@@ -27,7 +27,7 @@ const User = () => {
   }, [id]);
 
   if (loading) {
-    return <p>Loading...</p>;
+    return <p>Loading ... Please Wait</p>;
   }
 
   if (!user) {
